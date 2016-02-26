@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		716540441C8010070096C412 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 716540431C8010070096C412 /* main.m */; };
+		716540471C8010070096C412 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 716540461C8010070096C412 /* AppDelegate.m */; };
+		716540491C8010070096C412 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 716540481C8010070096C412 /* Assets.xcassets */; };
+		7165404C1C8010070096C412 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7165404A1C8010070096C412 /* LaunchScreen.storyboard */; };
+		716540571C8010070096C412 /* MixLabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 716540561C8010070096C412 /* MixLabelDemoTests.m */; };
+		716540621C8010080096C412 /* MixLabelDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 716540611C8010080096C412 /* MixLabelDemoUITests.m */; };
+		7165407B1C80109C0096C412 /* Emoji.plist in Resources */ = {isa = PBXBuildFile; fileRef = 716540761C80109C0096C412 /* Emoji.plist */; };
+		7165407C1C80109C0096C412 /* MixedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 716540781C80109C0096C412 /* MixedLabel.m */; };
+		7165407D1C80109C0096C412 /* NSAttributedString+JTATEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 7165407A1C80109C0096C412 /* NSAttributedString+JTATEmoji.m */; };
+		716540801C8010BB0096C412 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7165407F1C8010BB0096C412 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		716540531C8010070096C412 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 716540371C8010060096C412 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7165403E1C8010070096C412;
+			remoteInfo = MixLabelDemo;
+		};
+		7165405E1C8010070096C412 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 716540371C8010060096C412 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7165403E1C8010070096C412;
+			remoteInfo = MixLabelDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7165403F1C8010070096C412 /* MixLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MixLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		716540431C8010070096C412 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		716540451C8010070096C412 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		716540461C8010070096C412 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		716540481C8010070096C412 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7165404B1C8010070096C412 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7165404D1C8010070096C412 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		716540521C8010070096C412 /* MixLabelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MixLabelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		716540561C8010070096C412 /* MixLabelDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixLabelDemoTests.m; sourceTree = "<group>"; };
+		716540581C8010070096C412 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7165405D1C8010070096C412 /* MixLabelDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MixLabelDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		716540611C8010080096C412 /* MixLabelDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixLabelDemoUITests.m; sourceTree = "<group>"; };
+		716540631C8010080096C412 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		716540761C80109C0096C412 /* Emoji.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Emoji.plist; sourceTree = "<group>"; };
+		716540771C80109C0096C412 /* MixedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixedLabel.h; sourceTree = "<group>"; };
+		716540781C80109C0096C412 /* MixedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixedLabel.m; sourceTree = "<group>"; };
+		716540791C80109C0096C412 /* NSAttributedString+JTATEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+JTATEmoji.h"; sourceTree = "<group>"; };
+		7165407A1C80109C0096C412 /* NSAttributedString+JTATEmoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+JTATEmoji.m"; sourceTree = "<group>"; };
+		7165407E1C8010BB0096C412 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7165407F1C8010BB0096C412 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7165403C1C8010070096C412 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7165404F1C8010070096C412 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7165405A1C8010070096C412 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		716540361C8010060096C412 = {
+			isa = PBXGroup;
+			children = (
+				716540411C8010070096C412 /* MixLabelDemo */,
+				716540551C8010070096C412 /* MixLabelDemoTests */,
+				716540601C8010080096C412 /* MixLabelDemoUITests */,
+				716540401C8010070096C412 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		716540401C8010070096C412 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7165403F1C8010070096C412 /* MixLabelDemo.app */,
+				716540521C8010070096C412 /* MixLabelDemoTests.xctest */,
+				7165405D1C8010070096C412 /* MixLabelDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		716540411C8010070096C412 /* MixLabelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				716540751C80109C0096C412 /* JTATEmoji */,
+				716540451C8010070096C412 /* AppDelegate.h */,
+				716540461C8010070096C412 /* AppDelegate.m */,
+				7165407E1C8010BB0096C412 /* ViewController.h */,
+				7165407F1C8010BB0096C412 /* ViewController.m */,
+				716540481C8010070096C412 /* Assets.xcassets */,
+				7165404A1C8010070096C412 /* LaunchScreen.storyboard */,
+				7165404D1C8010070096C412 /* Info.plist */,
+				716540421C8010070096C412 /* Supporting Files */,
+			);
+			path = MixLabelDemo;
+			sourceTree = "<group>";
+		};
+		716540421C8010070096C412 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				716540431C8010070096C412 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		716540551C8010070096C412 /* MixLabelDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				716540561C8010070096C412 /* MixLabelDemoTests.m */,
+				716540581C8010070096C412 /* Info.plist */,
+			);
+			path = MixLabelDemoTests;
+			sourceTree = "<group>";
+		};
+		716540601C8010080096C412 /* MixLabelDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				716540611C8010080096C412 /* MixLabelDemoUITests.m */,
+				716540631C8010080096C412 /* Info.plist */,
+			);
+			path = MixLabelDemoUITests;
+			sourceTree = "<group>";
+		};
+		716540751C80109C0096C412 /* JTATEmoji */ = {
+			isa = PBXGroup;
+			children = (
+				716540761C80109C0096C412 /* Emoji.plist */,
+				716540771C80109C0096C412 /* MixedLabel.h */,
+				716540781C80109C0096C412 /* MixedLabel.m */,
+				716540791C80109C0096C412 /* NSAttributedString+JTATEmoji.h */,
+				7165407A1C80109C0096C412 /* NSAttributedString+JTATEmoji.m */,
+			);
+			path = JTATEmoji;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7165403E1C8010070096C412 /* MixLabelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 716540661C8010080096C412 /* Build configuration list for PBXNativeTarget "MixLabelDemo" */;
+			buildPhases = (
+				7165403B1C8010070096C412 /* Sources */,
+				7165403C1C8010070096C412 /* Frameworks */,
+				7165403D1C8010070096C412 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MixLabelDemo;
+			productName = MixLabelDemo;
+			productReference = 7165403F1C8010070096C412 /* MixLabelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		716540511C8010070096C412 /* MixLabelDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 716540691C8010080096C412 /* Build configuration list for PBXNativeTarget "MixLabelDemoTests" */;
+			buildPhases = (
+				7165404E1C8010070096C412 /* Sources */,
+				7165404F1C8010070096C412 /* Frameworks */,
+				716540501C8010070096C412 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				716540541C8010070096C412 /* PBXTargetDependency */,
+			);
+			name = MixLabelDemoTests;
+			productName = MixLabelDemoTests;
+			productReference = 716540521C8010070096C412 /* MixLabelDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7165405C1C8010070096C412 /* MixLabelDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7165406C1C8010080096C412 /* Build configuration list for PBXNativeTarget "MixLabelDemoUITests" */;
+			buildPhases = (
+				716540591C8010070096C412 /* Sources */,
+				7165405A1C8010070096C412 /* Frameworks */,
+				7165405B1C8010070096C412 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7165405F1C8010070096C412 /* PBXTargetDependency */,
+			);
+			name = MixLabelDemoUITests;
+			productName = MixLabelDemoUITests;
+			productReference = 7165405D1C8010070096C412 /* MixLabelDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		716540371C8010060096C412 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = mfwl;
+				TargetAttributes = {
+					7165403E1C8010070096C412 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					716540511C8010070096C412 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 7165403E1C8010070096C412;
+					};
+					7165405C1C8010070096C412 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 7165403E1C8010070096C412;
+					};
+				};
+			};
+			buildConfigurationList = 7165403A1C8010060096C412 /* Build configuration list for PBXProject "MixLabelDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 716540361C8010060096C412;
+			productRefGroup = 716540401C8010070096C412 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7165403E1C8010070096C412 /* MixLabelDemo */,
+				716540511C8010070096C412 /* MixLabelDemoTests */,
+				7165405C1C8010070096C412 /* MixLabelDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7165403D1C8010070096C412 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7165407B1C80109C0096C412 /* Emoji.plist in Resources */,
+				716540491C8010070096C412 /* Assets.xcassets in Resources */,
+				7165404C1C8010070096C412 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		716540501C8010070096C412 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7165405B1C8010070096C412 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7165403B1C8010070096C412 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				716540471C8010070096C412 /* AppDelegate.m in Sources */,
+				716540441C8010070096C412 /* main.m in Sources */,
+				7165407C1C80109C0096C412 /* MixedLabel.m in Sources */,
+				7165407D1C80109C0096C412 /* NSAttributedString+JTATEmoji.m in Sources */,
+				716540801C8010BB0096C412 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7165404E1C8010070096C412 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				716540571C8010070096C412 /* MixLabelDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		716540591C8010070096C412 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				716540621C8010080096C412 /* MixLabelDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		716540541C8010070096C412 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7165403E1C8010070096C412 /* MixLabelDemo */;
+			targetProxy = 716540531C8010070096C412 /* PBXContainerItemProxy */;
+		};
+		7165405F1C8010070096C412 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7165403E1C8010070096C412 /* MixLabelDemo */;
+			targetProxy = 7165405E1C8010070096C412 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7165404A1C8010070096C412 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7165404B1C8010070096C412 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		716540641C8010080096C412 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		716540651C8010080096C412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		716540671C8010080096C412 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MixLabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mfwl.com.MixLabelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		716540681C8010080096C412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MixLabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mfwl.com.MixLabelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7165406A1C8010080096C412 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MixLabelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mfwl.com.MixLabelDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MixLabelDemo.app/MixLabelDemo";
+			};
+			name = Debug;
+		};
+		7165406B1C8010080096C412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MixLabelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mfwl.com.MixLabelDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MixLabelDemo.app/MixLabelDemo";
+			};
+			name = Release;
+		};
+		7165406D1C8010080096C412 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MixLabelDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mfwl.com.MixLabelDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MixLabelDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7165406E1C8010080096C412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MixLabelDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mfwl.com.MixLabelDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MixLabelDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7165403A1C8010060096C412 /* Build configuration list for PBXProject "MixLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				716540641C8010080096C412 /* Debug */,
+				716540651C8010080096C412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		716540661C8010080096C412 /* Build configuration list for PBXNativeTarget "MixLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				716540671C8010080096C412 /* Debug */,
+				716540681C8010080096C412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		716540691C8010080096C412 /* Build configuration list for PBXNativeTarget "MixLabelDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7165406A1C8010080096C412 /* Debug */,
+				7165406B1C8010080096C412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7165406C1C8010080096C412 /* Build configuration list for PBXNativeTarget "MixLabelDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7165406D1C8010080096C412 /* Debug */,
+				7165406E1C8010080096C412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 716540371C8010060096C412 /* Project object */;
+}
